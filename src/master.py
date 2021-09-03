@@ -11,8 +11,9 @@ to replicate all of the python analysis
 """
 
 import src.download_raw_data as dwl_raw
-import src.create_clean_data as cln_data
+import src.clean_data as cln_data
+import src.transform_data as ts_data
 
 dwl_raw.main()
-cln_data.create_clean_data()
-
+cln_data.clean_data()
+ts_data.main()

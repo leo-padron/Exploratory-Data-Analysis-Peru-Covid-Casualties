@@ -1,4 +1,5 @@
 # File paths
 - data:
     rawFilePath: data/raw/
-    clnFilePath: data/processed/
+    clnFilePath: data/interim/
+    tsFilePath: data/processed/
