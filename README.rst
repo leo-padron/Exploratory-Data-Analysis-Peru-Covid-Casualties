@@ -1,4 +1,4 @@
-#### Re-running the project
+Running the project
 
 1) Create enviroment
 To re-run the project with conda, first install the required packages in a new conda environment.
