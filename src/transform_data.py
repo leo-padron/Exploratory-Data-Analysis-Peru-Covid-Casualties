@@ -20,9 +20,9 @@ def get_clean_data():
 
 def sample_data():
     
-    # take a random sample (1%) from the data.
+    # take a random sample (10%) from the data.
     df = get_clean_data()
-    df = df.sample(frac=0.01, random_state=1)
+    df = df.sample(frac=0.1, random_state=1)
     return df   
 
 def select_series():
